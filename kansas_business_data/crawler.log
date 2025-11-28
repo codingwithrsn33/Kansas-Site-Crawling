@@ -1,0 +1,35 @@
+2025-11-28 20:13:17,607 - INFO - Kansas SOS Crawler started with comprehensive error handling
+2025-11-28 20:17:29,413 - INFO - JSON data saved: json/business_HAACK_ENTERPRISES__L_P_.json
+2025-11-28 20:18:40,042 - INFO - JSON data saved: json/business__AA__PLACE_FOR_DOGS__INC_.json
+2025-11-28 20:19:24,700 - INFO - JSON data saved: json/business_1_AAA_SMART_START_OF_KANSAS__L.json
+2025-11-28 20:21:49,270 - INFO - JSON data saved: json/business_A_ABLE_DETOX_REHAB_TREATMENT__.json
+2025-11-28 20:22:30,416 - INFO - JSON data saved: json/business_A_AAA_BONDING_COMPANY_L_L_C_.json
+2025-11-28 20:24:26,617 - INFO - JSON data saved: json/business_A_A_A__BUILDERS__INC_.json
+2025-11-28 20:49:03,451 - INFO - JSON data saved: json/business_HAACK_ENTERPRISES__L_P_.json
+2025-11-28 21:04:44,665 - INFO - Kansas SOS Crawler started with comprehensive error handling
+2025-11-28 21:05:26,600 - ERROR - Unexpected error in main: 'KansasSOSCrawler' object has no attribute 'save_error_log'
+2025-11-28 21:14:48,067 - INFO - Kansas SOS Crawler started with comprehensive error handling
+2025-11-28 21:22:21,211 - INFO - Crawling stopped by user
+2025-11-28 21:22:21,655 - ERROR - Error closing browser: Browser.close: Connection closed while reading from the driver
+2025-11-28 21:22:31,834 - INFO - Kansas SOS Crawler started with comprehensive error handling
+2025-11-28 21:22:40,137 - ERROR - Failed to navigate to homepage - stopping crawler
+2025-11-28 21:22:40,402 - INFO - Browser closed successfully
+2025-11-28 21:28:52,831 - INFO - Kansas SOS Crawler started with comprehensive error handling
+2025-11-28 21:29:01,149 - ERROR - Failed to navigate to homepage - stopping crawler
+2025-11-28 21:29:01,300 - INFO - Browser closed successfully
+2025-11-28 21:59:29,130 - INFO - Kansas SOS Crawler started
+2025-11-28 22:36:47,368 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-43' coro=<Page.close() done, defined at C:\Users\harsh\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_page.py:829> wait_for=<Future finished result=None> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\harsh\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_sync_base.py:111, ProtocolCallback.__init__.<locals>.cb() at C:\Users\harsh\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py:230]>
+2025-11-28 22:36:55,916 - INFO - Kansas SOS Crawler started with comprehensive error handling
+2025-11-28 22:42:16,109 - INFO - JSON data saved: json/business_HAACK_ENTERPRISES__L_P_.json
+2025-11-28 22:42:50,372 - INFO - JSON data saved: json/business__AA__PLACE_FOR_DOGS__INC_.json
+2025-11-28 22:43:27,888 - INFO - JSON data saved: json/business_1_AAA_SMART_START_OF_KANSAS__L.json
+2025-11-28 22:46:21,994 - INFO - JSON data saved: json/business_A_ABLE_DETOX_REHAB_TREATMENT__.json
+2025-11-28 22:46:55,073 - INFO - JSON data saved: json/business_A_AAA_BONDING_COMPANY_L_L_C_.json
+2025-11-28 22:47:31,988 - INFO - JSON data saved: json/business_A_A_A__BUILDERS__INC_.json
+2025-11-28 22:50:57,392 - INFO - JSON data saved: json/business_HAACK_ENTERPRISES__L_P_.json
+2025-11-28 22:52:07,218 - INFO - JSON data saved: json/business_A_A_C_ELECTRIC_CO___INC_.json
+2025-11-28 22:53:50,297 - INFO - JSON data saved: json/business_A_A_C__INC_.json
+2025-11-28 22:59:16,366 - INFO - JSON data saved: json/business_FIRST_IMPRESSION_CLEANING___RE.json
+2025-11-28 23:00:28,558 - INFO - JSON data saved: json/business___KS40_LLC__.json
+2025-11-28 23:01:29,367 - INFO - JSON data saved: json/business___THE_ROOFER_DIRECT____LLC.json

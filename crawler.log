@@ -1,0 +1,146 @@
+2025-11-28 01:08:59,781 - INFO - Created directory: data/json
+2025-11-28 01:08:59,782 - INFO - Created directory: data/html
+2025-11-28 01:09:00,959 - INFO - Starting Kansas Business Crawler...
+2025-11-28 01:09:00,959 - INFO - Navigating to business search page...
+2025-11-28 01:09:09,528 - INFO - Searching for keyword: AA
+2025-11-28 01:09:19,909 - ERROR - Error performing search for 'AA': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1184113
+	0x1184154
+	0xf8e71d
+	0xf7d910
+	0xf9c714
+	0x1003475
+	0x101e749
+	0xffc706
+	0xfcda30
+	0xfced54
+	0x13f57c4
+	0x13f099a
+	0x11ac3a2
+	0x119c4d8
+	0x11a325d
+	0x118c488
+	0x118c64c
+	0x11767da
+	0x77175d49
+	0x77e2d6db
+	0x77e2d661
+
+2025-11-28 01:09:19,918 - WARNING - Search failed for keyword: AA
+2025-11-28 01:09:19,918 - INFO - Searching for keyword: AAB
+2025-11-28 01:09:19,973 - ERROR - Error performing search for 'AAB': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1184113
+	0x1184154
+	0xf8e56b
+	0xfcce58
+	0xffc7c6
+	0xff8030
+	0xff7563
+	0xf5e4dd
+	0xf5ea6e
+	0xf5ef3d
+	0x13f57c4
+	0x13f099a
+	0x11ac3a2
+	0x119c4d8
+	0x11a325d
+	0xf5e193
+	0xf5d848
+	0x154b0df
+	0x77175d49
+	0x77e2d6db
+	0x77e2d661
+
+2025-11-28 01:09:19,973 - WARNING - Search failed for keyword: AAB
+2025-11-28 01:09:19,974 - INFO - Searching for keyword: AAC
+2025-11-28 01:09:19,975 - ERROR - Error performing search for 'AAC': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1184113
+	0x1184154
+	0xf8e56b
+	0xfcce58
+	0xffc7c6
+	0xff8030
+	0xff7563
+	0xf5e4dd
+	0xf5ea6e
+	0xf5ef3d
+	0x13f57c4
+	0x13f099a
+	0x11ac3a2
+	0x119c4d8
+	0x11a325d
+	0xf5e193
+	0xf5d848
+	0x154b0df
+	0x77175d49
+	0x77e2d6db
+	0x77e2d661
+
+2025-11-28 01:09:19,975 - WARNING - Search failed for keyword: AAC
+2025-11-28 01:09:19,975 - INFO - Searching for keyword: AAD
+2025-11-28 01:09:19,976 - ERROR - Error performing search for 'AAD': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1184113
+	0x1184154
+	0xf8e56b
+	0xfcce58
+	0xffc7c6
+	0xff8030
+	0xff7563
+	0xf5e4dd
+	0xf5ea6e
+	0xf5ef3d
+	0x13f57c4
+	0x13f099a
+	0x11ac3a2
+	0x119c4d8
+	0x11a325d
+	0xf5e193
+	0xf5d848
+	0x154b0df
+	0x77175d49
+	0x77e2d6db
+	0x77e2d661
+
+2025-11-28 01:09:19,976 - WARNING - Search failed for keyword: AAD
+2025-11-28 01:09:19,977 - INFO - Searching for keyword: AAE
+2025-11-28 01:09:19,978 - ERROR - Error performing search for 'AAE': Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1184113
+	0x1184154
+	0xf8e56b
+	0xfcce58
+	0xffc7c6
+	0xff8030
+	0xff7563
+	0xf5e4dd
+	0xf5ea6e
+	0xf5ef3d
+	0x13f57c4
+	0x13f099a
+	0x11ac3a2
+	0x119c4d8
+	0x11a325d
+	0xf5e193
+	0xf5d848
+	0x154b0df
+	0x77175d49
+	0x77e2d6db
+	0x77e2d661
+
+2025-11-28 01:09:19,978 - WARNING - Search failed for keyword: AAE
+2025-11-28 01:09:22,179 - INFO - WebDriver closed
+2025-11-28 01:09:26,243 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A87FF62AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aa333351b6c7857f7f1f0120dfae80c
+2025-11-28 01:09:30,322 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A87FF62D50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aa333351b6c7857f7f1f0120dfae80c
+2025-11-28 01:09:34,409 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A87FC5E060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9aa333351b6c7857f7f1f0120dfae80c
+2025-11-28 01:09:38,504 - INFO - WebDriver closed

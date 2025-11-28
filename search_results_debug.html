@@ -1,0 +1,814 @@
+<!DOCTYPE html><html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/TkacYOdEJbdB_JjX802TMer9/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-Ft89l3aihBBhSrkZ/Syx/7cCCaryQcJICINmdoWVHhaQefSnqabq/akNl06biiHi"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-5EFVNNJVCW&amp;cx=c&amp;gtm=4e5bi1"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-110819933-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110819933-1');
+</script>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>
+	
+</title><script src="/eForms/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+<link href="/eForms/Content/css?v=4ZXrOiEqvH73Zld0jD2ZGvaJnBTWNBlrRW_gdxnNQOc1" rel="stylesheet">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"><link href="../favicon.ico" rel="shortcut icon" type="image/x-icon"></head>
+<body style="">
+    <form method="post" action="./Search.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl01" class="border-class" autocomplete="off">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="/eForms/bundles/MsAjaxJs?v=c42ygB2U07n37m_Sfa8ZbLGVu4Rr2gsBo7MvUEnJeZ81" type="text/javascript"></script>
+<script src="../Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+<script src="../Scripts/jquery.mask.min.js" type="text/javascript"></script>
+<script src="../Scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="../Scripts/respond.min.js" type="text/javascript"></script>
+<script src="/eForms/bundles/WebFormsJs?v=AAyiAYwMfvmwjNSBfIMrBAqfU5exDukMVhrRuZ-PDU01" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1BF965EF">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="xlUOqtgmPEHL2Tsko4CVgDnM27YrJOhpy28iAFEsUde5Eb8lN0aMWDUpTc5urvhL7cUvcjAfmXCNPeCCFhu36qYg9IQBP7liN8qMqylapV6sUt8PRB6X9rxLCWK+0Hbm+Y0eEm4Kujdyk+NVc7DeGaLA6T5Lj7hLVeWW+fEPZSeBaZlYdOt6HMaCmDXUKGP3df7g4x6xTm1olZgAS2046II0LGe0sChaogE+YJjIhOU0kv3FJiiFSJdZrsjsekE651XnpZ9xGSgqSbKtlrZ7slXG3RyNeWzAdrCtBn08A9HgNT58EFRpTZzA+OSK8SAei8tWf+JFOI0DEloz1XMTAsbzALit1cnxMJFb+HO0N5VI7pEY8bF6iJldlvat6O+byl0QNR6Wy5XJbNDPCYXJDfJBw6NOimneEGVJPqKH8QNmwzoqPuEV6goqnxgoBvCdGK8wdiz79UOIX/CHI+2Tf2O9xdgAbPBpsa0KYoXY0d3khB59IghmrrtNXQQKPnLFByKxZNWN6e8g+Wt/p/0gxyjeQk58sAAz8RheQ/wWVipuhG+PGqjiEtTyqqQLyxI6wKQXN6x2xfdoxJjV7a4X74E7rMLNbJGAk1GTB1BUF0tWembqJisoJnmJVuXJyqxRIZGsaR/jlE2JmSZtAynRW9J9DWPv+tbkO9mn9p0hDIBZj+l2GbF6n0N3CuFIdYwWvCI9jnrr9U9hm490RExWPhe0yFc1EeoZU0CXYBC5uuA/9+lJs2bwsoehjlAWNf/PEDAGpq6hQP5iUOq1ku4uC0hbYUYLEWR61Xl2BJp0eazuf2hPTQJS2paleDkMmqpaI7S+nfg7ygOGX7FFtIA7S8CQVBye5vlEHfAkiEQN+u2UnvqbziCY3q6kp/IkDsRbO+NSMndygXV3ae0e6Gh1QIP0g2tuAY2NNxYuD0W4Oszg/mcK9AeZW37zEBz1gMTmNc574i65TZ4L9490l3FA/M7J7seG4q02DSSUqnXfubz++ApH36BEDO0i8sLATPndJoFYOtfk77QSM/RZB7gpHfrVM7zW+tur0SQepxOx8k7eRxgkEShQvOlJmcrpdZwu">
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl09', 'ctl01', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+         <nav id="topNav" class="navbar navbar-expand-sm navbar-dark navbar-fixed-top">
+        <div class="container">
+            
+            <div class="d-none d-sm-block">
+                <a href="https://sos.ks.gov" id="hlLogoHome">
+                    <img src="../Content/images/seal.png" alt="Secretary of State logo">
+                </a>
+            </div>
+            <a class="navbar-brand" href="#">
+                <span id="h1Special">State of Kansas</span><br>
+                <span id="h3Special">OFFICE OF THE SECRETARY OF STATE</span>
+            </a>
+            
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavLinks">
+                <span class="navbar-toggler-icon"></span>Menu                  
+            </button>
+
+           
+
+            <div class="collapse navbar-collapse" id="navbarNavLinks">
+                <ul class="navbar-nav ml-auto ">
+                   
+                    <li class="nav-item active">
+                        
+                    </li>
+                    <li class="nav-item active">
+                        
+                    </li>
+                    <li class="nav-item active">
+                        
+                    </li>
+                    <li class="nav-item active">
+                        
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+         </nav>
+        <div class="formName-content">
+            
+
+
+        </div>
+        <div class="container body-content">
+            <div class="page_title_bar">
+                <h5>
+                    <span id="lblSPDescript"></span></h5>
+            </div>
+            
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="form-group">
+                <div class="font-weight-bold">
+                Business Search <button>?</button>  
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="row" id="divHelpfulHints" style="display:none">
+     <div class="col-lg-12">
+         <div class="form-group">
+             <ul>
+                 <li>When searching for a business name, if the name is too long you may have better results when only entering part of the name.</li>
+                 <li>If you don't know the full business name or in what order the words in the business name appear, a keyword search may help you.</li>
+                 <li>When performing a keyword search, make sure to use a word that is less common. A more common word might cause too many results to be returned.</li>
+                 <li>The business database is comprised of more than 300,000 names. A search would take too long if we allowed all results to be returned, so the results are limited to the first 100 that match the criteria you enter.</li>
+                 <li>When searching by a business ID number, please be sure to not use dashes or spaces. A business ID number is not the FEIN (Federal Employer Identification Number). The business ID number is assigned by the Secretary of State's office.</li>
+                 <li>The business database should not be used to search for name availability. Different search logic applies when searching electronically for availability of a name. Merely searching through the businesses database will not yield an accurate result. For name availability you must perform a true Name Availability search.</li>
+                 <li>If you are unable to locate a business, it is possible that they have not filed in Kansas or that they are a sole proprietorship, D/B/A, assumed name, fictitious name or trade name. These do not file in Kansas.</li>
+             </ul>
+         </div>
+  </div>
+</div>
+    <div class="row">
+        <div class="col-12">
+            <div>
+                
+                    The business name or identification number on file with the Secretary of State.
+                    
+                    
+                
+            </div>
+        </div>
+    </div>
+    <div id="MainContent_pnlSearchEntity" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'MainContent_btnSearchEntity')">
+	
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form-group required ">
+                    <table id="MainContent_rblSearchType" class="radio-inline" onchange="javascript:onSearchTypeChange(this)">
+		<tbody><tr>
+			<td><input id="MainContent_rblSearchType_0" type="radio" name="ctl00$MainContent$rblSearchType" value="NAME" checked="checked"><label for="MainContent_rblSearchType_0">By business name</label></td><td><input id="MainContent_rblSearchType_1" type="radio" name="ctl00$MainContent$rblSearchType" value="ID"><label for="MainContent_rblSearchType_1">By Kansas Secretary of State Business ID</label></td><td><input id="MainContent_rblSearchType_2" type="radio" name="ctl00$MainContent$rblSearchType" value="RANAME"><label for="MainContent_rblSearchType_2">By current resident agent name</label></td>
+		</tr>
+	</tbody></table>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="divSearchEntityID" style="display: none;">
+            <div class="col-lg-12">
+                <div class="form-group">
+                <input name="ctl00$MainContent$txtSearchEntityID" type="text" maxlength="8" id="MainContent_txtSearchEntityID" tabindex="75" class="form-control col-md-3" placeholder="Type here"><br>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="divSearchEntityName">
+            <div class="col-lg-12">
+               <div class="form-group">                
+         <input name="ctl00$MainContent$txtSearchEntityName" type="text" value="AA" maxlength="300" id="MainContent_txtSearchEntityName" tabindex="65" class="form-control col-md-6" placeholder="Type here"><br>
+                    <table id="MainContent_rblNameSearchType" class="radio-inline">
+		<tbody><tr>
+			<td><input id="MainContent_rblNameSearchType_0" type="radio" name="ctl00$MainContent$rblNameSearchType" value="CONTAINS" checked="checked"><label for="MainContent_rblNameSearchType_0">Contains</label></td><td><input id="MainContent_rblNameSearchType_1" type="radio" name="ctl00$MainContent$rblNameSearchType" value="STARTS"><label for="MainContent_rblNameSearchType_1">Starts With</label></td>
+		</tr>
+	</tbody></table>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="divSearchRAName" style="display: none;">
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <input name="ctl00$MainContent$txtSearchRAName" type="text" maxlength="300" id="MainContent_txtSearchRAName" tabindex="68" class="form-control col-md-6" placeholder="Type here"><br>
+                    <table id="MainContent_rblRANameSearchType" class="radio-inline">
+		<tbody><tr>
+			<td><input id="MainContent_rblRANameSearchType_0" type="radio" name="ctl00$MainContent$rblRANameSearchType" value="CONTAINS" checked="checked"><label for="MainContent_rblRANameSearchType_0">Contains</label></td><td><input id="MainContent_rblRANameSearchType_1" type="radio" name="ctl00$MainContent$rblRANameSearchType" value="STARTS"><label for="MainContent_rblRANameSearchType_1">Starts With</label></td>
+		</tr>
+	</tbody></table>
+
+                </div>
+            </div>
+        </div>
+        <div class="ohnohoney">
+            
+
+        </div>
+
+        
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form-group">
+                          <div id="MainContent_divCaptcha" class="g-recaptcha" data-sitekey="6LfkeBgUAAAAAC5-5f2XutiMu6Xevpbd0aMzBKma"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-ivns4cdqw21k" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfkeBgUAAAAAC5-5f2XutiMu6Xevpbd0aMzBKma&amp;co=aHR0cHM6Ly93d3cuc29zLmtzLmdvdjo0NDM.&amp;hl=en&amp;v=TkacYOdEJbdB_JjX802TMer9&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=15000&amp;cb=2hvo2e9ulhxp"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+<br>
+                    <input type="submit" name="ctl00$MainContent$btnSearchEntity" value="Search" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnSearchEntity&quot;, &quot;&quot;, true, &quot;SearchSubmit&quot;, &quot;&quot;, false, false))" id="MainContent_btnSearchEntity" tabindex="85" class="btn btn-success">
+                    
+                    <br>
+                     <span id="MainContent_lblRecaptchaMessage"></span>
+                    <span data-val-controltovalidate="MainContent_txtSearchEntityName" data-val-errormessage="Invalid character entered" data-val-display="Dynamic" data-val-validationgroup="SearchSubmit" id="MainContent_reveserveName" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[\w!~`/?\-;|\\:#&lt;&gt;%\+\=@\$\*\(\)\{\}\^\[\]\x22',&amp;.\s ]+$" style="display:none;">Invalid character entered</span>
+                    <span data-val-controltovalidate="MainContent_txtSearchEntityID" data-val-focusonerror="t" data-val-errormessage="Invalid Character Entered. Allowed Characters Are 0-9" data-val-display="Dynamic" data-val-validationgroup="SearchSubmit" id="MainContent_revEntityID" class="text-danger" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[0-9 ]+$" style="display:none;">Invalid Character Entered. Allowed Characters Are 0-9</span>
+                    
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="divgvSearchResults">
+            <div class="col-lg-12">
+                <div class="form-group">
+                    
+                    <div>
+		<table class="gvResults" cellspacing="0" id="MainContent_gvSearchResults" style="border-collapse:collapse;">
+			<tbody><tr>
+				<th scope="col">&nbsp;</th><th scope="col">Name</th><th scope="col">Entity ID</th><th scope="col">City, State</th><th scope="col">Status</th><th scope="col">Resident Agent</th>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl02$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_0" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_0">"HAACK ENTERPRISES, LTD"</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_0">785139</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_0">LAWRENCE</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_0">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_0">Dissolved</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_0">ROGER HAACK</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl03$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_1" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_1">'AA' PLACE FOR DOGS, INC.</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_1">5466719</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_1">Overland Park</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_1">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_1">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_1">Abigail  Warnke</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl04$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_2" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_2">1-AAA SMART START OF KANSAS, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_2">3338969</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_2">COLLEYVILLE</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_2">TX</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_2">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_2">MATT STRAUSZ</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl05$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_3" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_3">1007 COLUMBIA AVE LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_3">9695065</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_3">Wichita</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_3">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_3">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_3">CAMERON  ROCK</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl06$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_4" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_4">10TH &amp; TOPEKA, A KANSAS LIMITED COMPANY</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_4">2042083</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_4">TOPEKA</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_4">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_4">Dissolved</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_4">HOWARD T. PAUL</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl07$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_5" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_5">119 TRACTS A AND B LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_5">8023046</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_5">Kansas City</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_5">MO</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_5">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_5">119 TRACTS A AND B LLC</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl08$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_6" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_6">18TH &amp; MINNESOTA AVENUE MERCHANTS ASSOCIATION, INC.</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_6">4379087</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_6">KANSAS CITY</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_6">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_6">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_6">CHARLES L. ELLIS</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl09$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_7" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_7">1A ADVANCED CONTRACTING LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_7">8609687</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_7">Leavenworth</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_7">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_7">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_7">RAJEEV  BAJPEYI</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl10$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_8" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_8">1A AUTO, INC.</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_8">4500617</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_8">Pepperell</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_8">MA</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_8">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_8">C T CORPORATION SYSTEM</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl11$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_9" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_9">2 THE MAAXE LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_9">8216889</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_9">Kansas City</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_9">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_9">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_9">NIKI STRAWS</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl12$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_10" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_10">21ST &amp; TOPEKA, A KANSAS LIMITED COMPANY</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_10">2104909</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_10">TOPEKA</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_10">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_10">Dissolved</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_10">HOWARD T. PAUL</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl13$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_11" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_11">231ST &amp; WENONGA, A LIMITED LIABILITY COMPANY</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_11">2940526</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_11">LEAWOOD</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_11">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_11">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_11">CHRIS JOHNSON</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl14$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_12" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_12">282DA AMC LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_12">9799271</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_12">Haviland</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_12">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_12">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_12">282DA AMC LLC</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl15$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_13" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_13">2B DATA AND COMPUTING SOLUTIONS, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_13">6809529</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_13"></span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_13">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_13">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_13"></span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl16$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_14" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_14">3119 N SALINA AVE LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_14">7582299</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_14">WICHITA</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_14">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_14">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_14">THU  KESTERPHAN</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl17$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_15" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_15">34TH STREET APA AUTO PARTS, INC.</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_15">1712777</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_15">KANSAS CITY</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_15">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_15">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_15">JAMES W. GREEN, JR.</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl18$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_16" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_16">403 ARIZONA AVENUE HOLTON KS, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_16">8475485</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_16">Sea Girt</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_16">NJ</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_16">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_16">COGENCY GLOBAL INC.</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl19$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_17" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_17">43MBA ARCHITECTURE AND DESIGN LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_17">5489299</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_17">LITTLE FALLS</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_17">NJ</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_17">Forfeited - Failed to Designate New Resident Agent</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_17"></span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl20$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_18" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_18">4522 KATELLA AVENUE, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_18">3983517</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_18">LONG BEACH</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_18">CA</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_18">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_18">BARBARA GOODWIN</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl21$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_19" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_19">4MEDIA ADVERTISING, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_19">4150413</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_19">WICHITA</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_19">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_19">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_19">4MEDIA ADVERTISING, LLC</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl22$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_20" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_20">5A ANGUS FARM LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_20">9151689</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_20">Paola</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_20">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_20">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_20">TRAVIS MICHAEL ALLEN</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl23$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_21" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_21">645 MINNESOTA AVENUE, INC.</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_21">1582386</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_21">SHAWNEE MISSION</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_21">KS</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_21">Dissolved</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_21">VINCENT W. DECOURSEY</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl24$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_22" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_22">6700 ANTIOCH PLAZA ASSOCIATES LIMITED PARTNERSHIP</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_22">1647536</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_22">HARTFORD</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_22">CT</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_22">Dissolved</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_22">THE CORPORATION COMPANY, INC.</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl25$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_23" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_23">712 W Oklahoma Ave KS, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_23">10037067</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_23"></span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_23"></span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_23">Active and in Good Standing</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_23">CAPITOL CORPORATE SERVICES, INC.</span>
+                                </td>
+			</tr><tr>
+				<td>
+                                    <input type="submit" name="ctl00$MainContent$gvSearchResults$ctl26$btnAddEntity" value="Select Business" id="MainContent_gvSearchResults_btnAddEntity_24" tabindex="95" class="btn btn-primary">
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityName_24">7521 NEBRASKA AVE, LLC</span>
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedEntityID_24">4859351</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblEntityCity_24">GLADSTONE</span>,
+                                <span id="MainContent_gvSearchResults_lblEntityState_24">MO</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblSearchedStatusDesc_24">Forfeited - Failed to Timely File I/R</span>
+                                    
+                                </td><td>
+                                    <span id="MainContent_gvSearchResults_lblRAName_24">MAGGIE NEUSTADT</span>
+                                </td>
+			</tr><tr>
+				<td colspan="6"><table>
+					<tbody><tr>
+						<td><span>1</span></td><td><a href="javascript:__doPostBack('ctl00$MainContent$gvSearchResults','Page$2')">2</a></td><td><a href="javascript:__doPostBack('ctl00$MainContent$gvSearchResults','Page$3')">3</a></td><td><a href="javascript:__doPostBack('ctl00$MainContent$gvSearchResults','Page$4')">4</a></td>
+					</tr>
+				</tbody></table></td>
+			</tr>
+		</tbody></table>
+	</div>
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+    
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in" id="filings">
+            
+        </div>
+
+
+        <div role="tabpanel" class="tab-pane active " id="generalInfo">
+            
+        </div>
+    </div>
+    <input type="hidden" name="ctl00$MainContent$hdnEntityID" id="MainContent_hdnEntityID">
+    <input type="hidden" name="ctl00$MainContent$hdnSelectedTab" id="MainContent_hdnSelectedTab">
+    <input type="hidden" name="ctl00$MainContent$FormStartTime" id="MainContent_FormStartTime" value="638999140920735968">
+     <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <script>
+
+        $(function () {
+            var tabName = $("[id*=hdnSelectedTab]").val() != "" ? $("[id*=hdnSelectedTab]").val() : "generalInfo";
+            $('#Tabs a[href="#' + tabName + '"]').tab('show');
+
+            $("#Tabs a").click(function () {
+                $("[id*=hdnSelectedTab]").val($(this).attr("href").replace("#", ""));
+            });
+        });
+
+        (function () {
+            var e = document.getElementById("nameDiv");
+            e.parentNode.removeChild(e);
+        })();
+        $(document).ready(function () {
+            var selectedvalue = $('#MainContent_rblSearchType input:checked').val();
+
+            if (selectedvalue == 'ID') {
+                $("#divSearchEntityID").show();
+                $("#divSearchEntityName").hide();
+                $("#divgvSearchResults").hide();
+                $("#divSearchRAName").hide();
+            }
+            else if (selectedvalue == 'NAME') {
+                $("#divSearchEntityID").hide();
+                $("#divSearchEntityName").show();
+                $("#divSearchRAName").hide();
+            }
+            else if (selectedvalue == 'RANAME') {
+                $("#divSearchEntityID").hide();
+                $("#divSearchEntityName").hide();
+                $("#divSearchRAName").show();                
+            }
+            
+            $("button").click(function () {
+                $("#divHelpfulHints").toggle();
+                return false;
+            });
+        })
+        function onSearchTypeChange(rbl) {
+
+            var selectedvalue = $('#MainContent_rblSearchType input:checked').val();
+
+            if (selectedvalue == 'ID') {
+                $("#divSearchEntityID").show();
+                $("#divSearchEntityName").hide();
+                $("#divgvSearchResults").hide();
+                $("#divSearchRAName").hide();
+            }
+            else if (selectedvalue == 'NAME') {
+                $("#divSearchEntityID").hide();
+                $("#divSearchEntityName").show();
+                $("#divSearchRAName").hide();   
+                $("#divgvSearchResults").hide();
+            }
+            else if (selectedvalue == 'RANAME') {
+                $("#divSearchEntityID").hide();
+                $("#divSearchEntityName").hide();
+                $("#divSearchRAName").show();
+                $("#divgvSearchResults").hide();
+            }
+        }
+        //function ShowHelpfulHints() {
+        //    $("#divHelpfulHints").show();
+
+        // }
+    </script>
+
+            <hr>
+            <footer>
+                <p>All pages and content are the sole property of the Kansas Secretary of State</p>
+                <p>© 2025 - All Rights Reserved</p>
+            </footer>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+//]]>
+</script>
+</form>
+
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-ivns4cdqw21k" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=TkacYOdEJbdB_JjX802TMer9&amp;k=6LfkeBgUAAAAAC5-5f2XutiMu6Xevpbd0aMzBKma&amp;bft=0dAFcWeA4r-zN6meHEczO6UlhCxUpkMwp6mlCuV8wVLBSNClce-EMigCPB-zzm7zAArVqzXds0fSX4gD6gmTlaFeTjqAxidYMoXQ" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
